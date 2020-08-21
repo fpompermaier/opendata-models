@@ -12,6 +12,10 @@
 
 	<artifactId>soda</artifactId>
 
+	<properties>
+		<checkstyle.skip>true</checkstyle.skip>
+	</properties>
+	
 	<dependencies>
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
